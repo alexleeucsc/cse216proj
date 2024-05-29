@@ -1,0 +1,4 @@
+Error: ASSERTION FAIL: 0
+Stack: 
+	#000000189 in _Z8callmultILi10ELi22EEvv()
+	#100000135 in main()

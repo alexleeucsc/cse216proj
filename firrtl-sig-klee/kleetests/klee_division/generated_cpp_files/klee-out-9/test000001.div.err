@@ -1,0 +1,5 @@
+Error: divide by zero
+Stack: 
+	#000000760 in klee_div_zero_check(symbolic) at src/runtime/Intrinsic/klee_div_zero_check.c:14
+	#100000162 in _Z7calldivILi10ELi21EEvv()
+	#200000129 in main()
