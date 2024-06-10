@@ -1,0 +1,12 @@
+array a[8] : w32 -> w8 = symbolic
+array b[8] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Ult N0:(And w64 N1:(ReadLSB w64 0 a)
+                              1023)
+                  N2:(And w64 N3:(ReadLSB w64 0 b)
+                              1023)))
+         (Ult N2 N0)
+         (Eq 1
+             (Extract w8 0 (And w64 (ZExt w64 (Extract w8 0 (ZExt w64 (Ult N3 N1))))
+                                    1)))]
+        false)

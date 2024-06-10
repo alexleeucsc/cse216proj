@@ -1,0 +1,5 @@
+KLEE: WARNING: undefined reference to function: _ZNSt8ios_base4InitC1Ev
+KLEE: WARNING: undefined reference to function: _ZNSt8ios_base4InitD1Ev
+KLEE: WARNING: undefined reference to function: __cxa_atexit
+KLEE: WARNING ONCE: calling external: _ZNSt8ios_base4InitC1Ev(94234813364136) at [no debug info]
+KLEE: WARNING ONCE: calling external: __cxa_atexit(94234813363744, 94234813364136, 94234813364176) at [no debug info]

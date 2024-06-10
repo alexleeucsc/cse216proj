@@ -1,0 +1,6 @@
+array a[8] : w32 -> w8 = symbolic
+(query [(Eq 16383
+             (And w64 (And w64 (ReadLSB w64 0 a)
+                               16383)
+                      16383))]
+        false)

@@ -1,0 +1,29 @@
+array a[8] : w32 -> w8 = symbolic
+(query [(Eq false
+             (Eq 2047
+                 N0:(And w64 N1:(And w64 (ReadLSB w64 0 a)
+                                         2047)
+                             2047)))
+         (Eq false (Eq 0 N0))
+         (Eq false
+             (Eq (ZExt w32 (Extract w8 0 (And w64 (ZExt w64 (Extract w8 0 (And w64 (Xor w64 N2:(Xor w64 N3:(Xor w64 N4:(Xor w64 N5:(Xor w64 N6:(Xor w64 N0 (LShr w64 N0 1))
+                                                                                                                                            (LShr w64 N6 2))
+                                                                                                                                (LShr w64 N5 4))
+                                                                                                                    (LShr w64 N4 8))
+                                                                                                        (LShr w64 N3 16))
+                                                                                            (LShr w64 N2 32))
+                                                                                   1)))
+                                                  1)))
+                 (ZExt w32 (Extract w8 0 (And w64 (ZExt w64 (Extract w8 0 (Or w64 (Or w64 (Or w64 (Or w64 (Or w64 (Or w64 (Or w64 (Or w64 (Or w64 (Or w64 (And w64 (LShr w64 N1 0) 1)
+                                                                                                                                                          (And w64 (LShr w64 N1 1) 1))
+                                                                                                                                                  (And w64 (LShr w64 N1 2) 1))
+                                                                                                                                          (And w64 (LShr w64 N1 3) 1))
+                                                                                                                                  (And w64 (LShr w64 N1 4) 1))
+                                                                                                                          (And w64 (LShr w64 N1 5) 1))
+                                                                                                                  (And w64 (LShr w64 N1 6) 1))
+                                                                                                          (And w64 (LShr w64 N1 7) 1))
+                                                                                                  (And w64 (LShr w64 N1 8) 1))
+                                                                                          (And w64 (LShr w64 N1 9) 1))
+                                                                                  (And w64 (LShr w64 N1 10) 1))))
+                                                  1)))))]
+        false)

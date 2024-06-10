@@ -1,0 +1,4 @@
+Error: ASSERTION FAIL: 0
+Stack: 
+	#000000196 in _Z10callconcatILi10ELi21EEvv()
+	#100000135 in main()

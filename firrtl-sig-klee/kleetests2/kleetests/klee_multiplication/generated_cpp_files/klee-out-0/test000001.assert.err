@@ -1,0 +1,4 @@
+Error: ASSERTION FAIL: 0
+Stack: 
+	#000000175 in _Z8callmultv()
+	#100000515 in main()

@@ -1,0 +1,4 @@
+Error: ASSERTION FAIL: 0
+Stack: 
+	#000000197 in _Z12callbwreduceILi14EEvv()
+	#100000156 in main()

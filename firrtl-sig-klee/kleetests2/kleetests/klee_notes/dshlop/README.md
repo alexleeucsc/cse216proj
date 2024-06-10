@@ -1,0 +1,1 @@
+the specs say width is w1+2^w2; is this correct?
