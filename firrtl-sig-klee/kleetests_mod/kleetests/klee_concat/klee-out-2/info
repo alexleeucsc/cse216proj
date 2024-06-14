@@ -1,0 +1,23 @@
+/snap/klee/10/usr/local/bin/klee klee_cat_test.bc
+PID: 230025
+Using monotonic steady clock with 1/1000000000s resolution
+Started: 2024-06-12 00:14:47
+BEGIN searcher description
+<InterleavedSearcher> containing 2 searchers:
+RandomPathSearcher
+WeightedRandomSearcher::CoveringNew
+</InterleavedSearcher>
+END searcher description
+Finished: 2024-06-12 00:14:47
+Elapsed: 00:00:00
+KLEE: done: explored paths = 6
+KLEE: done: avg. constructs per query = 82
+KLEE: done: total queries = 50
+KLEE: done: valid queries = 43
+KLEE: done: invalid queries = 7
+KLEE: done: query cex = 50
+
+KLEE: done: total instructions = 27206
+KLEE: done: completed paths = 1
+KLEE: done: partially completed paths = 5
+KLEE: done: generated tests = 5

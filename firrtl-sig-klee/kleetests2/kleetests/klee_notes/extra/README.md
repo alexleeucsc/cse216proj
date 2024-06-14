@@ -1,0 +1,3 @@
+1: strictly_testing_klee is me trying to jerry rig my way around templates not being able to be symbolic-afied
+
+2: templatetests has metaprogramming C++ nexted loops. Since I had more complicated control flow later I just used python...

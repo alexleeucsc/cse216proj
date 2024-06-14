@@ -1,0 +1,8 @@
+Error: memory error: null page access
+Stack: 
+	#000000498 in _ZN4UIntC2Emi(94246529055680, symbolic, symbolic)
+	#100000277 in main()
+Info: 
+	address: 0
+	next: object at 94246526475392 of size 11
+		MO114[11] allocated at global:__PRETTY_FUNCTION__.main

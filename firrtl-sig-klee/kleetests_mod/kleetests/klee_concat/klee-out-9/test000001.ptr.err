@@ -1,0 +1,10 @@
+Error: memory error: null page access
+Stack: 
+	#000001192 in _ZN4UIntC2Emi(94497982565376, symbolic, symbolic)
+	#100000979 in __user_main()
+	#200000541 in __uClibc_main(94497981243816, 1, 94497954387200, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000714 in main(1, 94497954387200)
+Info: 
+	address: 0
+	next: object at 94497954369280 of size 768
+		MO250[768] allocated at global:__C_ctype_b_data

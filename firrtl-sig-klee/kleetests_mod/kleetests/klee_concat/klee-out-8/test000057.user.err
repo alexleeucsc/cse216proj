@@ -1,0 +1,5 @@
+Error: invalid klee_assume call (provably false)
+Stack: 
+	#000000958 in __user_main()
+	#100000541 in __uClibc_main(94101446500776, 1, 94101419644160, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#200000714 in main(1, 94101419644160)

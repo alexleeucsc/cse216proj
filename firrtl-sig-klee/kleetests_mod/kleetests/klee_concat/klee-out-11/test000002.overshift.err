@@ -1,0 +1,6 @@
+Error: overshift error
+Stack: 
+	#000006126 in klee_overshift_check(32, symbolic) at src/runtime/Intrinsic/klee_overshift_check.c:27
+	#100000979 in __user_main()
+	#200000541 in __uClibc_main(94836823228920, 1, 94836796372224, 0, 0, 0, 0) at libc/misc/internals/__uClibc_main.c:401
+	#300000714 in main(1, 94836796372224)
